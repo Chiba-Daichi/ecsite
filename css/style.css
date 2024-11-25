@@ -1,0 +1,103 @@
+/*ヘッダー部分-------------------------------------------------*/
+.header_img{
+    width: 300px;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: black;
+}
+
+header ul li{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 60px;
+}
+
+/*メイン部分----------------------------------------------------*/
+main{
+    display: flex;
+    width: 100%;
+}
+
+.left h1{
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+}
+/*左側ーーーーーーーーーーーーーーーーーーーーーーー*/
+.left{
+    width: 65%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.img_box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    padding: 30px;
+    width: 95%;
+    text-align:center;
+    background-color: whitesmoke;
+}
+
+.img_box .img{
+     width: 250px; 
+}
+
+img{ width: 100%; }
+
+.box_img .memo{
+    margin: 0;
+}
+
+/*--スペース--*/
+.space{
+    width: 10%;
+    
+}
+
+
+
+/*--サイドバー----------------------------------------------------*/
+/*右側ーーーーーーーーーーーーーーーーーーーーーーー*/
+
+.right{
+    width: 25%;
+}
+
+.right h1{
+    width: 95%;
+    border-bottom: 2px solid black;
+}
+
+.right ul{
+    padding: 0;
+    margin: 0;
+    list-style-position: center;
+    list-style: none;
+    line-height: 40px;
+}
+
+.right li{
+    display: list-item;
+}
+
+
+/*フッター部分----------------------------------------------------*/
+footer{
+    padding: 15px 0;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
